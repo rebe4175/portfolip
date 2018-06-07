@@ -1,0 +1,347 @@
+.html {
+
+    margin: 0px;
+    padding 0px;
+}
+
+body {
+
+    margin: 0px;
+}
+
+h2 {
+
+    font-family: sans-serif;
+}
+
+/* ------------ MENU ----------------- */
+
+.sidenav .closebtn {
+    position: absolute;
+    color: #f4cde1;
+    display: block;
+
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    padding: 8px 8px 8px 32px;
+    transition: 0.3s;
+
+    cursor: pointer;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #f4cde1;
+    display: block;
+    transition: 0.3s;
+
+    font-family: sans-serif;
+    font-size: 1em;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav.open {
+    width: 190px;
+}
+
+.menubar {
+    font-size: 30px;
+    cursor: pointer;
+    color: #f4cde1;
+}
+
+/* --------------- OM------------------------- */
+
+#om .sectionwrapper {
+
+    display: flex;
+    padding-bottom: 100px;
+}
+
+
+#intro h2 {
+
+    text-align: center;
+    line-height: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    font-size: 3em;
+}
+
+
+/* TEMA */
+
+#tema .sectionwrapper {
+
+    display: flex;
+
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#tema .column {
+
+    padding: 10px;
+    float: left;
+    z-index: 1;
+}
+
+#tema p {
+
+    font-family: sans-serif;
+    font-family: 0.5em;
+}
+
+#tema .column_content {
+
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+
+}
+
+#tema .overlay {
+
+    max-width: 180px;
+    max-height: 180px;
+    background-color: black;
+    cursor: pointer;
+
+}
+
+#tema .txt {
+
+    width: 150px;
+}
+
+.column2 {
+
+    border-left: 1px solid #f4cde1;
+    height: 500px;
+
+}
+
+.column3 {
+
+    border-left: 1px solid #f4cde1;
+    height: 500px;
+}
+
+.column4 {
+
+    border-left: 1px solid #f4cde1;
+    height: 500px;
+}
+
+#tema img {
+
+    max-width: 180px;
+}
+
+/* ------------ CV -------------- */
+
+#intro h1 {
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+}
+
+.overskrift {
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+    text-align: center;
+    line-height: 80px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3em;
+    color: #f4cde1;
+    border-bottom: 1px solid #f4cde1;
+}
+
+#data_box h2 {
+
+    line-height: 0px;
+    padding: 0px;
+    margin: 0px;
+    color: #f4cde1;
+    font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+#data_box .column {
+
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 5px;
+    width: 100%px;
+    border: 2px solid #f4cde1;
+
+}
+
+#data_box .img_picture {
+
+    position: absolute;
+    left: 77.6vw;
+    top: 12.2vw;
+
+}
+
+#data .column {
+
+    padding-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    display: flex;
+}
+
+#data img {
+
+    max-width: 200px;
+}
+
+ul {
+
+    font-family: sans-serif;
+    list-style-type: none;
+
+}
+
+#erfaring_box h2 {
+
+    line-height: 0px;
+    padding: 0px;
+    margin: 0px;
+    color: #f4cde1;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#erfaring_box .column {
+
+    padding: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+
+    height: 5px;
+    width: 100%px;
+
+    border: 2px solid #f4cde1;
+
+}
+
+/* ------------ TEMA 1 -------------- */
+
+#picture img {
+
+    max-width: 816px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#stilart h2 {
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+    font-size: 1.2em;
+
+}
+
+#stilart p {
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+
+#stilart .moodboards img {
+
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+
+    max-width: 816px;
+
+}
+
+#stilart .splash_logo img {
+
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 10px;
+
+    max-width: 816px;
+}
+
+#stilart_link .column {
+
+    padding: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border: 2px solid #f4cde1;
+
+}
+
+#stilart h2 {
+
+    color: #f4cde1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 2px;
+}
+
+
+#stilart_link a {
+
+    text-align: center;
+    text-decoration: none;
+    line-height: 0px;
+    color: black;
+
+}
+
+/* ------------ FOOTER -------------- */
+
+footer {
+
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 30px;
+}
+
+.footer {
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 25px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+}
