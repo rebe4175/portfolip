@@ -4,10 +4,7 @@
     padding 0px;
 }
 
-body {
-
-    margin: 0px;
-}
+body {}
 
 h2 {
 
@@ -63,12 +60,16 @@ h2 {
 
 .sidenav.open {
     width: 190px;
+
 }
 
 .menubar {
     font-size: 30px;
     cursor: pointer;
     color: #f4cde1;
+
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 /* --------------- OM------------------------- */
@@ -172,8 +173,7 @@ h2 {
 
 .overskrift {
 
-    margin-left: 200px;
-    margin-right: 200px;
+
 
     text-align: center;
     line-height: 80px;
@@ -196,11 +196,11 @@ h2 {
 #data_box .column {
 
     padding: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
     height: 5px;
     width: 100%px;
-    border: 2px solid #f4cde1;
+    border-top: 1px solid #f4cde1;
+    border-bottom: 1px solid #f4cde1;
+
 
 }
 
@@ -215,9 +215,6 @@ h2 {
 #data .column {
 
     padding-top: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
-
     display: flex;
 }
 
@@ -230,7 +227,6 @@ ul {
 
     font-family: sans-serif;
     list-style-type: none;
-
 }
 
 #erfaring_box h2 {
@@ -245,88 +241,100 @@ ul {
 #erfaring_box .column {
 
     padding: 20px;
-    margin-left: 200px;
-    margin-right: 200px;
     margin-top: 10px;
 
     height: 5px;
     width: 100%px;
 
-    border: 2px solid #f4cde1;
+    border-top: 1px solid #f4cde1;
+    border-bottom: 1px solid #f4cde1;
 
 }
 
-/* ------------ TEMA 1 -------------- */
+/* ------------ TEMA -------------- */
 
-#picture img {
+.img img {
 
-    max-width: 816px;
-    margin-left: 200px;
-    margin-right: 200px;
-}
-
-#stilart h2 {
-
-    margin-left: 200px;
-    margin-right: 200px;
-
-    font-size: 1.2em;
+    max-width: 450px;
 
 }
 
-#stilart p {
-    margin-left: 200px;
-    margin-right: 200px;
+.img {
+
+    text-align: center;
+}
+
+h1 {
+
+    color: #ff3399;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 1px solid #ff3399;
+    padding: 1px;
+
+    margin-left: 300px;
+    margin-right: 300px;
+
+}
+
+h2 {
+
+    color: #f4cde1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.4em;
+    text-align: center;
+    padding: 2px;
+
+}
+
+p {
+
     font-family: sans-serif;
     font-size: 0.9em;
 }
 
-#stilart .moodboards img {
+.sectionwrapper {
 
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 10px;
-
-    max-width: 816px;
-
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
-#stilart .splash_logo img {
-
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 10px;
-
-    max-width: 816px;
-}
-
-#stilart_link .column {
+#stilart .column {
 
     padding: 5px;
-    margin-left: 200px;
-    margin-right: 200px;
-    border: 2px solid #f4cde1;
+    border: 1px solid #f4cde1;
 
 }
 
-#stilart h2 {
+.link {
 
-    color: #f4cde1;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.8em;
-    text-align: center;
-    padding: 2px;
+    border-top: 1px solid #f4cde1;
+    border-bottom: 1px solid #f4cde1;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
 }
 
-
-#stilart_link a {
+.link a {
 
     text-align: center;
     text-decoration: none;
-    line-height: 0px;
-    color: black;
+    color: #f4cde1;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 0.8em;
+}
+
+.link a:hover {
+
+    text-align: center;
+    text-decoration: none;
+    color: #ff3399;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 0.8em;
 
 }
+
 
 /* ------------ FOOTER -------------- */
 
