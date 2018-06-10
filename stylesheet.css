@@ -126,6 +126,7 @@ a {
 .content {
 
     padding: 10px;
+
 }
 
 .content:hover {
@@ -194,13 +195,13 @@ a {
 
 }
 
-#data .column {
+.data .column {
 
     padding-top: 20px;
     display: flex;
 }
 
-#data img {
+.data img {
 
     max-width: 200px;
 }
@@ -255,6 +256,7 @@ ul {
 .img {
 
     text-align: center;
+    flex-wrap: wrap;
 }
 
 h1 {
@@ -291,6 +293,8 @@ p {
 
     margin-left: 300px;
     margin-right: 300px;
+
+
 }
 
 #stilart .column {
@@ -356,5 +360,62 @@ footer {
     font-family: sans-serif;
     text-align: center;
     color: white;
+
+}
+
+/*
+@media only screen and (max-width: 800px) {
+
+    .sidenav {
+
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .open {
+
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .closebtn {
+
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .menubar {
+
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .sectionwrapper {
+
+        margin: 30px;
+        width: 300px;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+    .img {
+
+        margin: 10px;
+
+    }
 
 }
