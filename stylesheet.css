@@ -165,8 +165,9 @@ a {
 #data_box h2 {
 
     line-height: 0px;
-    padding: 0px;
+    padding: 2vw;
     margin: 0px;
+    font-size: 1.4em;
     color: #f4cde1;
     font-family: 'Open Sans Condensed', sans-serif;
 
@@ -174,11 +175,10 @@ a {
 
 #data_box .column {
 
-    padding: 4vw;
-    height: 0.5vw;
-    width: 100%;
     border-top: 1px solid #f4cde1;
     border-bottom: 1px solid #f4cde1;
+
+    padding: 2vw;
 }
 
 #data_box .img_picture {
@@ -191,13 +191,13 @@ a {
 
 .data .column {
 
-    padding-top: 20px;
     display: flex;
 }
 
 .data img {
 
-    max-width: 200px;
+    width: 13vw;
+    margin: 2vw;
 }
 
 ul {
@@ -218,7 +218,7 @@ ul {
 #erfaring_box img {
 
     max-width: 80px;
-    margin-left: 20px;
+
 }
 
 #erfaring_box .column {
@@ -226,7 +226,6 @@ ul {
     padding: 20px;
     margin-top: 10px;
 
-    height: 5px;
     width: 100%;
 
     border-top: 1px solid #f4cde1;
@@ -245,8 +244,8 @@ ul {
 
 .img img {
 
-    max-width: 450px;
-    margin: 15px;
+    max-width: 20vw;
+    margin: 1vw;
 
 }
 
@@ -269,8 +268,8 @@ h1 {
     border-bottom: 1px solid #ff3399;
     padding: 1px;
 
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20vw;
+    margin-right: 20vw;
 
 
 }
@@ -293,8 +292,9 @@ p {
 
 .sectionwrapper {
 
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
 
 
 }
@@ -313,7 +313,7 @@ p {
 
 #joejuice img {
 
-    max-width: 200px;
+    max-width: 20vw;
 }
 
 .link {
@@ -372,9 +372,11 @@ footer p {
         margin-top: 15vw;
         margin-left: 1vw;
     }
+
+    .img_picture {
+        display: none;
+    }
 }
-
-
 
 @media only screen and (max-width: 800px) {
     #tema .sectionwrapper {
@@ -408,6 +410,20 @@ footer p {
         padding-bottom: 15vw;
     }
 
+    .data .column {
 
+        flex-direction: column
+    }
+    .data img {
+
+        min-width: 130px;
+        text-align: center;
+    }
+
+    .img img {
+
+        min-width: 140px;
+        text-align: center;
+    }
 
 }
