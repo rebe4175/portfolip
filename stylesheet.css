@@ -173,8 +173,6 @@ h2 {
 
 .overskrift {
 
-
-
     text-align: center;
     line-height: 80px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -200,14 +198,12 @@ h2 {
     width: 100%px;
     border-top: 1px solid #f4cde1;
     border-bottom: 1px solid #f4cde1;
-
-
 }
 
 #data_box .img_picture {
 
     position: absolute;
-    left: 77.6vw;
+    left: 68vw;
     top: 12.2vw;
 
 }
@@ -307,6 +303,16 @@ p {
 
 }
 
+#keaapp img {
+
+    max-width: 200px;
+}
+
+#joejuice img {
+
+    max-width: 200px;
+}
+
 .link {
 
     border-top: 1px solid #f4cde1;
@@ -348,6 +354,7 @@ footer {
 .footer {
     margin-left: 200px;
     margin-right: 200px;
+    margin-bottom: 0;
     line-height: 25px;
     font-family: sans-serif;
     text-align: center;
