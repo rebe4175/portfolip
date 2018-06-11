@@ -283,7 +283,7 @@ h2 {
 
     color: #f4cde1;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.em;
+    font-size: 1em;
     text-align: center;
     padding: 2px;
 
@@ -358,7 +358,7 @@ footer {
     position: fixed;
     background-color: #18191c;
     width: 100%;
-    height: 5;
+    height: 3vw;
     bottom: 0;
     left: 0;
 
