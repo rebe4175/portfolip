@@ -121,6 +121,7 @@ a {
     transition: .5s ease;
     background-color: #18191c;
     cursor: pointer;
+    height: 22vw;
 }
 
 
@@ -177,8 +178,6 @@ a {
 
     border-top: 1px solid #f4cde1;
     border-bottom: 1px solid #f4cde1;
-
-    padding: 2vw;
 }
 
 #data_box .img_picture {
@@ -192,6 +191,12 @@ a {
 .data .column {
 
     display: flex;
+
+}
+
+.data h2 {
+
+    font-size: 1em;
 }
 
 .data img {
@@ -294,6 +299,7 @@ p {
 
     margin-left: 20vw;
     margin-right: 20vw;
+    padding-bottom: 2vw;
 
 
 
@@ -308,12 +314,12 @@ p {
 
 #keaapp img {
 
-    max-width: 200px;
+    max-width: 15vw;
 }
 
 #joejuice img {
 
-    max-width: 20vw;
+    max-width: 15vw;
 }
 
 .link {
@@ -412,7 +418,8 @@ footer p {
 
     .data .column {
 
-        flex-direction: column
+        flex-direction: column;
+
     }
     .data img {
 
